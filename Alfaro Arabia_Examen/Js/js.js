@@ -19,8 +19,8 @@ X= Math.pow(X, 2)
 Y= Math.pow(X, 2)
 
 
-    d = Math.sqrt(x*x + y*y)
-    r = Math.atan2(y,x) 
+    d = Math.sqrt(X*X + Y*Y)
+    r = Math.atan2(Y,X) 
     resul = { distance:distance, radians:radians }
     return resul;
 
